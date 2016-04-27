@@ -261,7 +261,7 @@ session_start();
  $chatOb = new Chat(); 
  $jsonResult = array("success"=>0, "message"=>"Not logged in");
  switch($_REQUEST['request'])
- {
+ { 
      case 'login':  $jsonResult = $chatOb->login($_REQUEST['email'], $_REQUEST['password']);
          break;
      case 'getusers': if($chatOb->checkifLoggedIn())
