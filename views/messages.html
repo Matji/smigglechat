@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Chat Page</title>
+<link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+<p class="app_name">Smiggle Chat</p>
+<p class="opened_user_cont">Chat with <b><span class="opened_user"></span></b></p>
+
+<div class="messages_list">
+  <ul>
+  </ul>
+</div>
+<div class="sendMsg-cont">
+ <table>
+ <tr>
+  <td>Type Message</td> <td></td>
+ </tr>
+  <tr> 
+  <td>
+  <input type="text" name="message" id="message"/>
+  </td>
+  <td>
+  <input type="button" value="send" name="btnsendMessage" id="btnsendMessage">
+  </td>
+  </tr>
+ </table>
+</div>
+<script type="text/javascript" src="../js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="../js/urlparser.js"></script>
+<script type="text/javascript" src="../js/apicall.js"></script>
+</body>
+</html>

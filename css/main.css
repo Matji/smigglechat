@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.app_name
+{
+	font-size:30px;
+	text-align:center;
+}
+.opened_user_cont
+{
+	font-size:25px; 
+}
+.inbox
+{
+	cursor:pointer;
+	background-color:#09F;
+	padding:10px;
+	color:#FFF;
+}
+.inboxcount
+{
+	font-weight:bold;
+}
+.av_users, .opened_user_cont
+{
+	background-color:#096;
+	color:#FFF;
+	padding:10px;	
+}
+.inboxmsg-list
+{
+	display:none;
+}
+.messages_list
+{
+	width:600px;
+}
+.messages_list ul li
+{
+	margin-top:3px;
+	padding:3px;
+	list-style-type:none;
+}
+.sendMsg-cont
+{
+	margin:0 0 0 50px;
+}
+.me
+{
+	background-color:#0CC;
+}
+.friend 
+{
+	background-color:#CC3;
+}
+.login
+{
+	padding:5px;
+	font-size:25px;
+	background-color:#CC3;
+}
